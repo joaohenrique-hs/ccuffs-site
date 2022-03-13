@@ -12,7 +12,7 @@
     </head>
     <body>
         <h1>Welcome to my website!</h1>
-        <div class="presentation">
+        <section class="presentation">
             <img class="profileImg" src="/public/profile.jpg" alt="My picture"/>
             <div class="codeText">
                 &lt<span>header</span>&gt
@@ -33,8 +33,8 @@
                 <br>
                 &lt/<span>footer</span>&gt
             </div>
-        </div>
-        <div class="techs">
+        </section>
+        <section class="techs">
             <h2>Technologies I love ❤️</h2>
             <div class="techIcons">
                 <img class="icon" src="/public/logos/html.svg" alt="HTML logo"/>
@@ -46,32 +46,47 @@
                 <img class="icon" src="/public/logos/elixir.png" alt="Elixir logo"/>
                 <img class="icon" src="/public/logos/linux.png" alt="Linux logo (Tux)"/>
             </div>
-        </div>
-        <div class="projects">
+        </section>
+        <section class="projects">
             <h2>My projects</h2>
-            <div>
-                <img src="" alt=""/>
-                <img src="" alt=""/>
-                <img src="" alt=""/>
+            <div class="projectsCards">
+                <img class="projectCard" src="/public/caramori.png" alt="Caramori Project Card"/>
+                <img class="projectCard" src="/public/samar.png" alt="Samar Project Card"/>
+                <img class="projectCard" src="/public/taskly.png" alt="Taskly Project Card"/>
             </div>
-        </div>
-        <div class="links">
+        </section>
+        <section class="links">
             <h2>Interesting Links</h2>
-            <div>
-                <h3>My github</h3>
-                <span>Here you can checkout my open source projects!</span>
-                <img src="" alt=""/>
+            <div class="linksCards">
+                <div class="linkCard">
+                    <div class="linkCardDescription">
+                        <h3>My GitHub</h3>
+                        <p>Here you can checkout my open source projects!</p>
+                    </div>
+                    <img src="/public/github.gif" alt="GitHub Octo gif"/>
+                </div>
+                <div class="linkCard">
+                    <div class="linkCardDescription">
+                        <h3>My LinkedIn</h3>
+                        <p>Here you can checkout my linkedin resume!</p>
+                    </div>
+                    <img src="/public/linkedin.png" alt="LinkedIn logo"/>
+                </div>
+                <div class="linkCard">
+                    <div class="linkCardDescription">
+                        <h3>My Instagram</h3>
+                        <p>Here you can checkout my routine and pictures!</p>
+                    </div>
+                    <img src="/public/instagram.png" alt="Instagram logo"/>
+                </div>
+                <div class="linkCard">
+                    <div class="linkCardDescription">
+                        <h3>My Email</h3>
+                        <p>From here you can get in contact with me!</p>
+                    </div>
+                    <img src="/public/email.png" alt="Mail logo"/>
+                </div>
             </div>
-            <div>
-                <h3>My github</h3>
-                <span>Here you can checkout my open source projects!</span>
-                <img src="" alt=""/>
-            </div>
-            <div>
-                <h3>My github</h3>
-                <span>Here you can checkout my open source projects!</span>
-                <img src="" alt=""/>
-            </div>
-        </div>
+        </section>
     </body>
 </html>

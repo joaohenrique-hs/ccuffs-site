@@ -50,7 +50,7 @@ h2 {
 
 .techs {
   padding-top: 13.5%;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
 }
 
 .techIcons {
@@ -64,4 +64,47 @@ h2 {
 .icon {
   width: 150px;
   margin: 0 auto;
+}
+
+.projectsCards {
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 12% 12%;
+}
+
+.projectCard {
+  width: 29%;
+}
+
+.links {
+  padding: 0 12% 12% 12%;
+}
+
+.linksCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15%;
+  grid-row-gap: 15%;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.linkCard {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.linkCardDescription {
+  width: 60%;
+}
+
+.linkCardDescription h3 {
+  font-size: 36px;
+}
+
+.linkCardDescription p {
+  font-size: 22px;
+  padding-top: 5%;
 }
