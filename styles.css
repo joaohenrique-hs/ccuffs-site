@@ -4,11 +4,41 @@
  font-family: 'Fira Code', monospace;
 }
 
+:root {
+  --bg-color: #030008;
+  --html-tag-color: #9B51E0;
+  --name-color: #6FCF97;
+  --text-color: #f4f4f4;
+}
+
 body {
-  background-color: #F4F4F4;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  margin: 0 12%;
+  display: flex;
+  position: relative;
+}
+
+#themeButton {
+  height: 56px;
+  width: 56px;
+  top: 38%;
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#themeButton:focus {
+  outline:0;
 }
 
 h1 {
+  width: 100%;
   padding: 6.5% 0;
   font-size: 44px;
   text-align: center;
@@ -32,6 +62,7 @@ h2 {
 }
 
 .codeText {
+  color: var(--text-color);
   width: 44%;
   font-size: 25px;
   text-align: center;
@@ -39,13 +70,13 @@ h2 {
 }
 
 .codeText span {
-  color: #EF5DA8;
+  color: var(--html-tag-color);
   font-weight: 500;
 }
 
 .codeText strong {
   font-weight: normal;
-  color: #27AE60;
+  color: var(--name-color);
 }
 
 .techs {

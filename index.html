@@ -11,7 +11,12 @@
         <title>@João Henrique</title>
     </head>
     <body>
-        <h1>Welcome to my website!</h1>
+        <header>
+            <h1>Welcome to my website!</h1>
+            <button id="themeButton" onclick="toggleColorMode(false)">
+                <img id="buttonImg" src="/public/icons/sun.png">
+            </button>
+        </header>
         <section class="presentation">
             <img class="profileImg" src="/public/profile.jpg" alt="My picture"/>
             <div class="codeText">
@@ -89,4 +94,5 @@
             </div>
         </section>
     </body>
+    <script src="script.js"></script>
 </html>
